@@ -38,7 +38,7 @@ export default function Contact() {
       const imageUrl = await uploadImage();
       
       // CHANGE THIS URL TO YOUR N8N WEBHOOK
-      const webhookUrl = "http://localhost:5678/webhook-test/contact-form"; 
+      const webhookUrl = "http://localhost:5678/webhook/contact-form"; 
       
       const payload = {
         ...formData,
